@@ -1,0 +1,24 @@
+html, body {
+  background: #2f4f30;
+  color: #fff;
+}
+
+.titulo {
+  background-color: #000;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#cartas-jugador,
+#cartas-ordenador {
+  min-height: 200px;
+
+  img {
+    max-width: 150px;
+
+    &:not(:first-child) {
+      margin-left: -80px;
+    }
+  }
+}
