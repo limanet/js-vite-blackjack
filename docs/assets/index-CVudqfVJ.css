@@ -1,0 +1,1 @@
+html,body{background:#2f4f30;color:#fff}.titulo{background-color:#000;text-align:center;padding-top:10px;padding-bottom:10px}#cartas-jugador,#cartas-ordenador{min-height:200px}#cartas-jugador img,#cartas-ordenador img{max-width:150px}#cartas-jugador img:not(:first-child),#cartas-ordenador img:not(:first-child){margin-left:-80px}
